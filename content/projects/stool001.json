@@ -1,18 +1,18 @@
 {
-  "title": "Stool.001",
+  "title": "Banquinho",
   "date": "2020",
+  "slug": "stool001",
   "category": "work",
   "order": 20,
-  "slug": "stool001",
   "cover": "assets/images/stool001/cover.png",
   "modules": [
     {
-      "type": "image",
-      "image": "assets/images/stool001/img_01.png"
+      "type": "text",
+      "text": "Banquinho modelado no blender, o objetivo foi criar um produto unico e simples com o foco na animação, que apesar de simples apresenta conceitos importantes da ferramenta."
     },
     {
-      "type": "text",
-      "text": "Stool.001"
+      "type": "image",
+      "image": "assets/images/stool001/img_01.png"
     }
   ]
 }
