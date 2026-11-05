@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: viniciusdomingues/portfolio # Substitua pelo seu usuário/repositório no GitHub
+  repo: vaazio/portfolio
   branch: main
 
 # Pasta padrão onde novas imagens enviadas pelo painel serão salvas
