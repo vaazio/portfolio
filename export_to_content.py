@@ -1,8 +1,9 @@
 import json
 import os
 
-projects_path = r"C:\Users\Dom.Vinicius\portfolio\data\projects.json"
-content_dir = r"C:\Users\Dom.Vinicius\portfolio\content\projects"
+base_dir = os.path.dirname(os.path.abspath(__file__))
+projects_path = os.path.join(base_dir, "data", "projects.json")
+content_dir = os.path.join(base_dir, "content", "projects")
 os.makedirs(content_dir, exist_ok=True)
 
 with open(projects_path, encoding="utf-8") as f:

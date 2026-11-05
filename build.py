@@ -1,8 +1,7 @@
 import os
 import json
 import glob
-import subprocess
-import sys
+from generate_static_projects import generate_static_pages
 
 def build():
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -48,11 +47,9 @@ def build():
 
     print(f"[1/2] Compilação concluída: {len(projects)} projetos gravados em data/projects.json")
 
-    # Now regenerate all static project HTML pages
-    gen_script = os.path.join(base_dir, "generate_static_projects.py")
-    if os.path.exists(gen_script):
-        subprocess.run([sys.executable, gen_script], check=True)
-        print("[2/2] Todas as páginas estáticas geradas com sucesso!")
+    # Generate all static project HTML pages in-process (no subprocess dependency)
+    generate_static_pages(base_dir=base_dir, projects=projects)
+    print("[2/2] Todas as páginas estáticas geradas com sucesso!")
 
 if __name__ == "__main__":
     build()

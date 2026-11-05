@@ -1,13 +1,7 @@
 import os
 import json
 
-base_dir = r"C:\Users\Dom.Vinicius\portfolio"
-data_path = os.path.join(base_dir, "data", "projects.json")
-
-with open(data_path, "r", encoding="utf-8") as f:
-    projects = json.load(f)
-
-template = """<!DOCTYPE html>
+TEMPLATE = """<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -77,64 +71,73 @@ template = """<!DOCTYPE html>
 </html>
 """
 
-print(f"Generating static HTML for {len(projects)} projects...")
+def generate_static_pages(base_dir=None, projects=None):
+    if base_dir is None:
+        base_dir = os.path.dirname(os.path.abspath(__file__))
 
-for idx, p in enumerate(projects):
-    slug = p["slug"]
-    title = p["title"]
-    date = p.get("date", "")
-    category = p.get("category", "work")
+    if projects is None:
+        data_path = os.path.join(base_dir, "data", "projects.json")
+        with open(data_path, "r", encoding="utf-8") as f:
+            projects = json.load(f)
 
-    nav_work_active = "active" if category == "work" else ""
-    nav_det_active = "active" if category == "detalhamento" else ""
-    category_label = "Portfólio Detalhamento" if category == "detalhamento" else "Portfólio 3D"
-    date_meta = f"{date} • {category_label}" if date else category_label
+    for idx, p in enumerate(projects):
+        slug = p["slug"]
+        title = p["title"]
+        date = p.get("date", "")
+        category = p.get("category", "work")
 
-    prev_p = projects[idx - 1] if idx > 0 else None
-    next_p = projects[idx + 1] if idx < len(projects) - 1 else None
+        nav_work_active = "active" if category == "work" else ""
+        nav_det_active = "active" if category == "detalhamento" else ""
+        category_label = "Portfólio Detalhamento" if category == "detalhamento" else "Portfólio 3D"
+        date_meta = f"{date} • {category_label}" if date else category_label
 
-    prev_link = f'<a href="{prev_p["slug"]}.html">← {prev_p["title"]}</a>' if prev_p else ""
-    next_link = f'<a href="{next_p["slug"]}.html">{next_p["title"]} →</a>' if next_p else ""
-    back_url = "detalhamento.html" if category == "detalhamento" else "index.html"
-    back_label = "Portfólio Detalhamento" if category == "detalhamento" else "Portfólio"
+        prev_p = projects[idx - 1] if idx > 0 else None
+        next_p = projects[idx + 1] if idx < len(projects) - 1 else None
 
-    # Modules HTML
-    modules_parts = []
-    meta_desc_parts = []
-    for m in p.get("modules", []):
-        if m.get("type") == "text":
-            text_content = m.get("content", "").replace("\n", "<br>")
-            meta_desc_parts.append(m.get("content", ""))
-            modules_parts.append(f"""
-              <div class="module-text-container">
-                <p>{text_content}</p>
-              </div>
-            """)
-        elif m.get("type") == "image":
-            img_src = m.get("local_src") or m.get("src", "")
-            modules_parts.append(f"""
-              <div class="module-img-container" onclick="openLightbox('{img_src}')">
-                <img src="{img_src}" alt="{title}" class="module-img" loading="lazy" />
-              </div>
-            """)
+        prev_link = f'<a href="{prev_p["slug"]}.html">← {prev_p["title"]}</a>' if prev_p else ""
+        next_link = f'<a href="{next_p["slug"]}.html">{next_p["title"]} →</a>' if next_p else ""
+        back_url = "detalhamento.html" if category == "detalhamento" else "index.html"
+        back_label = "Portfólio Detalhamento" if category == "detalhamento" else "Portfólio"
 
-    meta_desc = (" ".join(meta_desc_parts)[:150] or f"Projeto {title} - {category_label} de Vinicius Domingues.").replace('"', '&quot;')
+        modules_parts = []
+        meta_desc_parts = []
+        for m in p.get("modules", []):
+            if m.get("type") == "text":
+                text_content = m.get("content", "").replace("\n", "<br>")
+                meta_desc_parts.append(m.get("content", ""))
+                modules_parts.append(f"""
+                  <div class="module-text-container">
+                    <p>{text_content}</p>
+                  </div>
+                """)
+            elif m.get("type") == "image":
+                img_src = m.get("local_src") or m.get("src", "")
+                modules_parts.append(f"""
+                  <div class="module-img-container" onclick="openLightbox('{img_src}')">
+                    <img src="{img_src}" alt="{title}" class="module-img" loading="lazy" />
+                  </div>
+                """)
 
-    rendered_html = template.format(
-        title=title,
-        meta_desc=meta_desc,
-        nav_work_active=nav_work_active,
-        nav_det_active=nav_det_active,
-        date_meta=date_meta,
-        modules_html="\n".join(modules_parts),
-        prev_link=prev_link,
-        next_link=next_link,
-        back_url=back_url,
-        back_label=back_label
-    )
+        meta_desc = (" ".join(meta_desc_parts)[:150] or f"Projeto {title} - {category_label} de Vinicius Domingues.").replace('"', '&quot;')
 
-    out_file = os.path.join(base_dir, f"{slug}.html")
-    with open(out_file, "w", encoding="utf-8") as f_out:
-        f_out.write(rendered_html)
+        rendered_html = TEMPLATE.format(
+            title=title,
+            meta_desc=meta_desc,
+            nav_work_active=nav_work_active,
+            nav_det_active=nav_det_active,
+            date_meta=date_meta,
+            modules_html="\n".join(modules_parts),
+            prev_link=prev_link,
+            next_link=next_link,
+            back_url=back_url,
+            back_label=back_label
+        )
 
-print("All static project pages generated successfully!")
+        out_file = os.path.join(base_dir, f"{slug}.html")
+        with open(out_file, "w", encoding="utf-8") as f_out:
+            f_out.write(rendered_html)
+
+    print(f"Geradas {len(projects)} páginas estáticas de projetos com sucesso.")
+
+if __name__ == "__main__":
+    generate_static_pages()
