@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Living.Detail.001 - Vinicius Domingues</title>
+  <meta name="description" content="Projeto Living.Detail.001 - Portfólio 3D de Vinicius Domingues." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="logo-area">
+      <a href="index.html" class="site-title">Vinicius Domingues</a>
+      <span class="site-subtitle">Visualização Arquitetônica & Detalhamento</span>
+    </div>
+
+    <nav class="site-nav">
+      <a href="index.html" class="nav-link active">Portfólio</a>
+      <a href="detalhamento.html" class="nav-link ">Portfólio Detalhamento</a>
+      <a href="https://www.instagram.com/vini.domingue.s" target="_blank" rel="noopener" class="nav-link nav-social">Instagram</a>
+      <a href="https://www.linkedin.com/in/vinicius-domingues-596ab3199/" target="_blank" rel="noopener" class="nav-link nav-social">LinkedIn</a>
+      <a href="contact.html" class="nav-link">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Project Container -->
+  <main class="main-content" id="project-content">
+    <div class="project-header">
+      <h1 class="project-detail-title">Living.Detail.001</h1>
+      <div class="project-detail-meta">2020 • Portfólio 3D</div>
+    </div>
+
+    <div class="project-modules" id="project-modules">
+      
+              <div class="module-img-container" onclick="openLightbox('assets/images/livingdetail001/img_01.png')">
+                <img src="assets/images/livingdetail001/img_01.png" alt="Living.Detail.001" class="module-img" loading="lazy" />
+              </div>
+            
+    </div>
+
+    <nav class="project-navigation" id="project-nav">
+      <div>
+        <a href="house001.html">← House.001</a>
+      </div>
+      <div>
+        <a href="index.html" class="back-link">Voltar para Portfólio</a>
+      </div>
+      <div>
+        <a href="stool001.html">Stool.001 →</a>
+      </div>
+    </nav>
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" onclick="closeLightbox()">
+    <button class="lightbox-close" aria-label="Fechar">&times;</button>
+    <img id="lightbox-img" class="lightbox-img" src="" alt="Ampliação" onclick="event.stopPropagation()" />
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div>&copy; 2026 Vinicius Domingues. Todos os direitos reservados.</div>
+    <div>
+      <a href="admin/" class="admin-link" title="Painel de Edição">Área de Edição</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

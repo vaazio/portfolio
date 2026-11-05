@@ -1,0 +1,14 @@
+{
+  "title": "Det. Escada.001",
+  "date": "2022",
+  "category": "detalhamento",
+  "order": 27,
+  "slug": "det-escada",
+  "cover": "assets/images/det-escada/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/det-escada/img_01.png"
+    }
+  ]
+}

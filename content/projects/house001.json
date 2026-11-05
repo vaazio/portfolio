@@ -1,0 +1,22 @@
+{
+  "title": "House.001",
+  "date": "2020",
+  "category": "work",
+  "order": 18,
+  "slug": "house001",
+  "cover": "assets/images/house001/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Projeto de estudo arquitetônico p/ casa em terreno aclive. Modelagem e renderização no Blender."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/house001/img_01.png"
+    },
+    {
+      "type": "text",
+      "text": "House.001"
+    }
+  ]
+}

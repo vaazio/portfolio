@@ -1,0 +1,34 @@
+{
+  "title": "Kids.Room.002",
+  "date": "2022",
+  "category": "work",
+  "order": 4,
+  "slug": "kidsroom002",
+  "cover": "assets/images/kidsroom002/cover.jpg",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/kidsroom002/img_01.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/kidsroom002/img_02.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/kidsroom002/img_03.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/kidsroom002/img_04.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/kidsroom002/img_05.jpg"
+    },
+    {
+      "type": "text",
+      "text": "Quarto infantil desenvolvido no escritório Arc+CO, as ferramentas utilizadas foram Archicad e Blender, com blocos do 3Dwharehouse, CGaxis. Texturas customizadas extraídas do site dos produtos(papel de parede, tapetes e lençol) tratadas no photoshop e topaz gigapixel."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Bathroom.001",
+  "date": "2020",
+  "category": "work",
+  "order": 17,
+  "slug": "bathroom001",
+  "cover": "assets/images/bathroom001/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Estudo de recriação de ambiente em 3D a partir de foto. Modelagem e renderização no Blender."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom001/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom001/img_02.png"
+    },
+    {
+      "type": "text",
+      "text": "Foto original de referência."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom001/img_03.jpg"
+    },
+    {
+      "type": "text",
+      "text": "Bathroom.001"
+    }
+  ]
+}

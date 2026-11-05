@@ -1,0 +1,30 @@
+{
+  "title": "Hall.002",
+  "date": "2020",
+  "category": "work",
+  "order": 13,
+  "slug": "hall002",
+  "cover": "assets/images/hall002/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Estudo de inserção de móveis em fotos, modelagem e renderização no Blender."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/hall002/img_01.png"
+    },
+    {
+      "type": "text",
+      "text": "Foto original de referência:"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/hall002/img_02.jpg"
+    },
+    {
+      "type": "text",
+      "text": "Hall.002"
+    }
+  ]
+}

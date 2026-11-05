@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinicius Domingues - Portfólio</title>
+  <meta name="description" content="Portfólio de Visualização Arquitetônica e Detalhamento de Vinicius Domingues." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="logo-area">
+      <a href="index.html" class="site-title">Vinicius Domingues</a>
+      <span class="site-subtitle">Visualização Arquitetônica & Detalhamento</span>
+    </div>
+
+    <nav class="site-nav">
+      <a href="index.html" class="nav-link active">Portfólio</a>
+      <a href="detalhamento.html" class="nav-link">Portfólio Detalhamento</a>
+      <a href="https://www.instagram.com/vini.domingue.s" target="_blank" rel="noopener" class="nav-link nav-social">Instagram</a>
+      <a href="https://www.linkedin.com/in/vinicius-domingues-596ab3199/" target="_blank" rel="noopener" class="nav-link nav-social">LinkedIn</a>
+      <a href="contact.html" class="nav-link">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="projects-grid" id="projects-grid">
+      <!-- Inserido dinamicamente via assets/js/main.js -->
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div>&copy; 2026 Vinicius Domingues. Todos os direitos reservados.</div>
+    <div>
+      <a href="admin/" class="admin-link" title="Painel de Edição">Área de Edição</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      renderGrid('work', 'projects-grid');
+    });
+  </script>
+</body>
+</html>

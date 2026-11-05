@@ -1,0 +1,22 @@
+{
+  "title": "Bathroom.002",
+  "date": "2020",
+  "category": "work",
+  "order": 16,
+  "slug": "bathroom002",
+  "cover": "assets/images/bathroom002/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Projeto de interiores autoral de estudo para BWC Master. Modelagem e renderização no Blender."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom002/img_01.png"
+    },
+    {
+      "type": "text",
+      "text": "Bathroom.001"
+    }
+  ]
+}

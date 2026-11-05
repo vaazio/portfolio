@@ -1,0 +1,34 @@
+{
+  "title": "Bedroom.003",
+  "date": "2020",
+  "category": "work",
+  "order": 10,
+  "slug": "bedroom003",
+  "cover": "assets/images/bedroom003/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Projeto autoral de interiores suíte. Modelado e renderizado no Blender."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bedroom003/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bedroom003/img_02.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bedroom003/img_03.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bedroom003/img_04.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bedroom003/img_05.png"
+    }
+  ]
+}

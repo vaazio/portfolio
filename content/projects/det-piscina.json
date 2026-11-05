@@ -1,0 +1,14 @@
+{
+  "title": "Det. Piscina.001",
+  "date": "2022",
+  "category": "detalhamento",
+  "order": 28,
+  "slug": "det-piscina",
+  "cover": "assets/images/det-piscina/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/det-piscina/img_01.png"
+    }
+  ]
+}

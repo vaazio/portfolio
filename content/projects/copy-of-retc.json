@@ -1,0 +1,30 @@
+{
+  "title": "Empreendimento.002",
+  "date": "2024",
+  "category": "work",
+  "order": 1,
+  "slug": "copy-of-retc",
+  "cover": "assets/images/copy-of-retc/cover.jpg",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/copy-of-retc/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copy-of-retc/img_02.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copy-of-retc/img_03.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copy-of-retc/img_04.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copy-of-retc/img_05.jpg"
+    }
+  ]
+}

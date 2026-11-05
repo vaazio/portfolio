@@ -1,0 +1,14 @@
+{
+  "title": "Living.Detail.001",
+  "date": "2020",
+  "category": "work",
+  "order": 19,
+  "slug": "livingdetail001",
+  "cover": "assets/images/livingdetail001/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/livingdetail001/img_01.png"
+    }
+  ]
+}

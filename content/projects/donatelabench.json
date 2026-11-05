@@ -1,0 +1,22 @@
+{
+  "title": "Donatela.bench",
+  "date": "2020",
+  "category": "work",
+  "order": 11,
+  "slug": "donatelabench",
+  "cover": "assets/images/donatelabench/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Estudo de modelagem e renderização p/ Arkviz do banco Donatela."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/donatelabench/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/donatelabench/img_02.png"
+    }
+  ]
+}

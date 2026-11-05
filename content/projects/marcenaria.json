@@ -1,0 +1,18 @@
+{
+  "title": "Det. Beliche Infantil.001",
+  "date": "2022",
+  "category": "detalhamento",
+  "order": 29,
+  "slug": "marcenaria",
+  "cover": "assets/images/marcenaria/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Projeto de marcenaria de beliche infantil, projeto realizado no ArchiCAD."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/marcenaria/img_01.png"
+    }
+  ]
+}

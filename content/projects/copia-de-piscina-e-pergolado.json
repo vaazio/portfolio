@@ -1,0 +1,42 @@
+{
+  "title": "ReTC",
+  "date": "2024",
+  "category": "work",
+  "order": 2,
+  "slug": "copia-de-piscina-e-pergolado",
+  "cover": "assets/images/copia-de-piscina-e-pergolado/cover.jpg",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/copia-de-piscina-e-pergolado/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copia-de-piscina-e-pergolado/img_02.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copia-de-piscina-e-pergolado/img_03.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copia-de-piscina-e-pergolado/img_04.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copia-de-piscina-e-pergolado/img_05.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copia-de-piscina-e-pergolado/img_06.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copia-de-piscina-e-pergolado/img_07.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/copia-de-piscina-e-pergolado/img_08.jpg"
+    }
+  ]
+}

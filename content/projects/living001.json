@@ -1,0 +1,18 @@
+{
+  "title": "Living.001",
+  "date": "2020",
+  "category": "work",
+  "order": 21,
+  "slug": "living001",
+  "cover": "assets/images/living001/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/living001/img_01.png"
+    },
+    {
+      "type": "text",
+      "text": "Living inspirado pela série Mad Man."
+    }
+  ]
+}

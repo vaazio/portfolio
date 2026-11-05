@@ -1,0 +1,134 @@
+{
+  "title": "ReFT",
+  "date": "2022",
+  "category": "work",
+  "order": 8,
+  "slug": "reft",
+  "cover": "assets/images/reft/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Projeto residencial feito com ArchiCAD, renderizado no Lumion."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_02.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_03.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_04.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_05.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_06.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_07.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_08.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_09.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_10.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_11.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_12.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_13.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_14.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_15.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_16.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_17.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_18.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_19.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_20.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_21.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_22.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_23.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_24.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_25.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_26.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_27.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_28.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_29.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/reft/img_30.png"
+    }
+  ]
+}

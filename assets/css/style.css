@@ -1,0 +1,423 @@
+/* ==========================================================
+   PORTFÓLIO VINICIUS DOMINGUES - STYLES
+   Minimalist, Modern, High-Performance Architectural Portfolio
+   ========================================================== */
+
+:root {
+  --bg-color: #ffffff;
+  --text-main: #111111;
+  --text-muted: #777777;
+  --text-light: #999999;
+  --accent: #25262a;
+  --border-color: #eaeaea;
+  --hover-overlay: rgba(0, 0, 0, 0.4);
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --max-width: 1440px;
+  --spacing-container: 40px;
+  --grid-gap: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ================= HEADER & NAV ================= */
+.site-header {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 50px var(--spacing-container) 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+}
+
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.site-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.site-subtitle {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 1.5rem;
+}
+
+.site-nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--text-main);
+  opacity: 1;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background-color: var(--text-main);
+}
+
+.nav-social {
+  color: var(--text-light);
+  font-size: 0.85rem;
+}
+
+/* ================= MAIN CONTAINER ================= */
+.main-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px var(--spacing-container) 80px;
+  min-height: calc(100vh - 220px);
+}
+
+/* ================= PROJECT GRID ================= */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: var(--grid-gap);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background: #fdfdfd;
+  position: relative;
+  overflow: hidden;
+  group: pointer;
+}
+
+.project-thumb-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.project-card:hover .project-thumb {
+  transform: scale(1.03);
+}
+
+.project-info {
+  padding: 16px 4px 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.project-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--text-main);
+}
+
+.project-year {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ================= PROJECT DETAIL VIEW ================= */
+.project-header {
+  max-width: 900px;
+  margin: 20px auto 40px;
+  text-align: center;
+}
+
+.project-detail-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+}
+
+.project-detail-meta {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.project-modules {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.module-img-container {
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 2px;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+.module-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.module-text-container {
+  max-width: 780px;
+  margin: 10px auto;
+  padding: 0 20px;
+  font-size: 1.05rem;
+  color: #333333;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.project-navigation {
+  max-width: 1200px;
+  margin: 80px auto 20px;
+  padding-top: 30px;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.back-link {
+  font-weight: 500;
+  color: var(--text-main);
+}
+
+/* ================= CONTACT PAGE ================= */
+.contact-container {
+  max-width: 700px;
+  margin: 60px auto 80px;
+  padding: 0 20px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.contact-intro {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.contact-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-2px);
+  border-color: #999;
+  opacity: 1;
+}
+
+.contact-icon {
+  font-size: 1.4rem;
+  color: var(--text-main);
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact-value {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-main);
+}
+
+/* ================= LIGHTBOX ================= */
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.92);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+  padding: 20px;
+}
+
+.lightbox-modal.active {
+  display: flex;
+}
+
+.lightbox-img {
+  max-width: 95vw;
+  max-height: 95vh;
+  object-fit: contain;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  color: #fff;
+  font-size: 2.2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  line-height: 1;
+}
+
+/* ================= FOOTER ================= */
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 40px var(--spacing-container);
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.admin-link {
+  font-size: 0.75rem;
+  color: #ccc;
+  transition: color 0.2s ease;
+}
+.admin-link:hover {
+  color: #888;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  :root {
+    --spacing-container: 20px;
+    --grid-gap: 20px;
+  }
+
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px var(--spacing-container) 20px;
+  }
+
+  .site-nav {
+    flex-wrap: wrap;
+    gap: 16px 20px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-detail-title {
+    font-size: 1.4rem;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}

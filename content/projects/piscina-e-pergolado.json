@@ -1,0 +1,42 @@
+{
+  "title": "PISCINA E PERGOLADO",
+  "date": "2023",
+  "category": "detalhamento",
+  "order": 26,
+  "slug": "piscina-e-pergolado",
+  "cover": "assets/images/piscina-e-pergolado/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/piscina-e-pergolado/img_01.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/piscina-e-pergolado/img_02.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/piscina-e-pergolado/img_03.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/piscina-e-pergolado/img_04.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/piscina-e-pergolado/img_05.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/piscina-e-pergolado/img_06.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/piscina-e-pergolado/img_07.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/piscina-e-pergolado/img_08.png"
+    }
+  ]
+}

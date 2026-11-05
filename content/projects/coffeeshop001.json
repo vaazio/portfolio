@@ -1,0 +1,26 @@
+{
+  "title": "Coffee.Shop.001",
+  "date": "2020",
+  "category": "work",
+  "order": 9,
+  "slug": "coffeeshop001",
+  "cover": "assets/images/coffeeshop001/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Projeto p/ Desafio Lev.Design Cafeteria"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/coffeeshop001/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/coffeeshop001/img_02.png"
+    },
+    {
+      "type": "text",
+      "text": "Coffee.Shop.001"
+    }
+  ]
+}

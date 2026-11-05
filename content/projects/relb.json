@@ -1,0 +1,70 @@
+{
+  "title": "ReLB",
+  "date": "2022",
+  "category": "work",
+  "order": 6,
+  "slug": "relb",
+  "cover": "assets/images/relb/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Estudo preliminar residencial feito no ArchiCAD e renderizado no Lumion."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_02.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_03.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_04.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_05.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_06.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_07.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_08.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_09.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_10.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_11.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_12.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_13.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/relb/img_14.png"
+    }
+  ]
+}

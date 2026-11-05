@@ -1,0 +1,14 @@
+{
+  "title": "Bedroom.001",
+  "date": "2020",
+  "category": "work",
+  "order": 22,
+  "slug": "bedroom001",
+  "cover": "assets/images/bedroom001/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/bedroom001/img_01.png"
+    }
+  ]
+}

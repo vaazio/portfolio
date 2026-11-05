@@ -1,0 +1,62 @@
+{
+  "title": "ReAM",
+  "date": "2022",
+  "category": "work",
+  "order": 5,
+  "slug": "ream",
+  "cover": "assets/images/ream/cover.jpg",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Projeto realizado no ArchiCAD, renderizado no Lumion."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_01.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_02.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_03.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_04.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_05.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_06.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_07.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_08.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_09.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_10.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_11.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/ream/img_12.jpg"
+    }
+  ]
+}

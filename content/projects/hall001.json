@@ -1,0 +1,18 @@
+{
+  "title": "Hall.001",
+  "date": "2020",
+  "category": "work",
+  "order": 15,
+  "slug": "hall001",
+  "cover": "assets/images/hall001/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/hall001/img_01.png"
+    },
+    {
+      "type": "text",
+      "text": "Hall.001"
+    }
+  ]
+}

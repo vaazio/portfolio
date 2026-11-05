@@ -1,0 +1,22 @@
+{
+  "title": "Gym.001",
+  "date": "2020",
+  "category": "work",
+  "order": 14,
+  "slug": "gym001",
+  "cover": "assets/images/gym001/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/gym001/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/gym001/img_02.png"
+    },
+    {
+      "type": "text",
+      "text": "Gym.001"
+    }
+  ]
+}

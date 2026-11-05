@@ -1,0 +1,18 @@
+{
+  "title": "Kitchen.001",
+  "date": "2020",
+  "category": "work",
+  "order": 25,
+  "slug": "kitchen001",
+  "cover": "assets/images/kitchen001/cover.jpg",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/kitchen001/img_01.jpg"
+    },
+    {
+      "type": "text",
+      "text": "Kitchen.001"
+    }
+  ]
+}

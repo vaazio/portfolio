@@ -1,0 +1,18 @@
+{
+  "title": "Boomerang.Chair.001",
+  "date": "2020",
+  "category": "work",
+  "order": 23,
+  "slug": "boomerangchair001",
+  "cover": "assets/images/boomerangchair001/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/boomerangchair001/img_01.png"
+    },
+    {
+      "type": "text",
+      "text": "Boomerang.Chair by Richard Neutra"
+    }
+  ]
+}

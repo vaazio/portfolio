@@ -1,0 +1,34 @@
+{
+  "title": "Bathroom.003",
+  "date": "2020",
+  "category": "detalhamento",
+  "order": 30,
+  "slug": "bathroom003-2d",
+  "cover": "assets/images/bathroom003-2d/cover.jpg",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Mostrar 3D"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003-2d/img_01.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003-2d/img_02.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003-2d/img_03.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003-2d/img_04.jpg"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003-2d/img_05.jpg"
+    }
+  ]
+}

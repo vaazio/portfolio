@@ -1,0 +1,30 @@
+{
+  "title": "Empreendimento.001",
+  "date": "2023",
+  "category": "work",
+  "order": 3,
+  "slug": "empreendimento001",
+  "cover": "assets/images/empreendimento001/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/empreendimento001/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/empreendimento001/img_02.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/empreendimento001/img_03.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/empreendimento001/img_04.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/empreendimento001/img_05.png"
+    }
+  ]
+}

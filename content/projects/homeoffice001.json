@@ -1,0 +1,18 @@
+{
+  "title": "Home.Office.001",
+  "date": "2020",
+  "category": "work",
+  "order": 24,
+  "slug": "homeoffice001",
+  "cover": "assets/images/homeoffice001/cover.png",
+  "modules": [
+    {
+      "type": "image",
+      "image": "assets/images/homeoffice001/img_01.png"
+    },
+    {
+      "type": "text",
+      "text": "Home.office.001"
+    }
+  ]
+}

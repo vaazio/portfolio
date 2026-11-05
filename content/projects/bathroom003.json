@@ -1,0 +1,38 @@
+{
+  "title": "Bathroom.003",
+  "date": "2020",
+  "category": "work",
+  "order": 12,
+  "slug": "bathroom003",
+  "cover": "assets/images/bathroom003/cover.png",
+  "modules": [
+    {
+      "type": "text",
+      "text": "Projeto de interiores autoral p/ BWC, modelagem e renderização no Blender."
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003/img_01.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003/img_02.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003/img_03.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003/img_04.png"
+    },
+    {
+      "type": "image",
+      "image": "assets/images/bathroom003/img_05.png"
+    },
+    {
+      "type": "text",
+      "text": "Bathroom.003"
+    }
+  ]
+}

@@ -1,0 +1,1177 @@
+[
+  {
+    "slug": "copy-of-retc",
+    "title": "Empreendimento.002",
+    "date": "2024",
+    "category": "work",
+    "order": 1,
+    "local_cover": "assets/images/copy-of-retc/cover.jpg",
+    "cover_img": "assets/images/copy-of-retc/cover.jpg",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/copy-of-retc/img_01.png",
+        "src": "assets/images/copy-of-retc/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copy-of-retc/img_02.png",
+        "src": "assets/images/copy-of-retc/img_02.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copy-of-retc/img_03.png",
+        "src": "assets/images/copy-of-retc/img_03.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copy-of-retc/img_04.jpg",
+        "src": "assets/images/copy-of-retc/img_04.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copy-of-retc/img_05.jpg",
+        "src": "assets/images/copy-of-retc/img_05.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "copia-de-piscina-e-pergolado",
+    "title": "ReTC",
+    "date": "2024",
+    "category": "work",
+    "order": 2,
+    "local_cover": "assets/images/copia-de-piscina-e-pergolado/cover.jpg",
+    "cover_img": "assets/images/copia-de-piscina-e-pergolado/cover.jpg",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/copia-de-piscina-e-pergolado/img_01.png",
+        "src": "assets/images/copia-de-piscina-e-pergolado/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copia-de-piscina-e-pergolado/img_02.png",
+        "src": "assets/images/copia-de-piscina-e-pergolado/img_02.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copia-de-piscina-e-pergolado/img_03.png",
+        "src": "assets/images/copia-de-piscina-e-pergolado/img_03.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copia-de-piscina-e-pergolado/img_04.png",
+        "src": "assets/images/copia-de-piscina-e-pergolado/img_04.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copia-de-piscina-e-pergolado/img_05.png",
+        "src": "assets/images/copia-de-piscina-e-pergolado/img_05.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copia-de-piscina-e-pergolado/img_06.png",
+        "src": "assets/images/copia-de-piscina-e-pergolado/img_06.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copia-de-piscina-e-pergolado/img_07.png",
+        "src": "assets/images/copia-de-piscina-e-pergolado/img_07.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/copia-de-piscina-e-pergolado/img_08.jpg",
+        "src": "assets/images/copia-de-piscina-e-pergolado/img_08.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "empreendimento001",
+    "title": "Empreendimento.001",
+    "date": "2023",
+    "category": "work",
+    "order": 3,
+    "local_cover": "assets/images/empreendimento001/cover.png",
+    "cover_img": "assets/images/empreendimento001/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/empreendimento001/img_01.png",
+        "src": "assets/images/empreendimento001/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/empreendimento001/img_02.png",
+        "src": "assets/images/empreendimento001/img_02.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/empreendimento001/img_03.png",
+        "src": "assets/images/empreendimento001/img_03.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/empreendimento001/img_04.png",
+        "src": "assets/images/empreendimento001/img_04.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/empreendimento001/img_05.png",
+        "src": "assets/images/empreendimento001/img_05.png"
+      }
+    ]
+  },
+  {
+    "slug": "kidsroom002",
+    "title": "Kids.Room.002",
+    "date": "2022",
+    "category": "work",
+    "order": 4,
+    "local_cover": "assets/images/kidsroom002/cover.jpg",
+    "cover_img": "assets/images/kidsroom002/cover.jpg",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/kidsroom002/img_01.jpg",
+        "src": "assets/images/kidsroom002/img_01.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/kidsroom002/img_02.jpg",
+        "src": "assets/images/kidsroom002/img_02.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/kidsroom002/img_03.jpg",
+        "src": "assets/images/kidsroom002/img_03.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/kidsroom002/img_04.jpg",
+        "src": "assets/images/kidsroom002/img_04.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/kidsroom002/img_05.jpg",
+        "src": "assets/images/kidsroom002/img_05.jpg"
+      },
+      {
+        "type": "text",
+        "content": "Quarto infantil desenvolvido no escritório Arc+CO, as ferramentas utilizadas foram Archicad e Blender, com blocos do 3Dwharehouse, CGaxis. Texturas customizadas extraídas do site dos produtos(papel de parede, tapetes e lençol) tratadas no photoshop e topaz gigapixel."
+      }
+    ]
+  },
+  {
+    "slug": "ream",
+    "title": "ReAM",
+    "date": "2022",
+    "category": "work",
+    "order": 5,
+    "local_cover": "assets/images/ream/cover.jpg",
+    "cover_img": "assets/images/ream/cover.jpg",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Projeto realizado no ArchiCAD, renderizado no Lumion."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_01.jpg",
+        "src": "assets/images/ream/img_01.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_02.jpg",
+        "src": "assets/images/ream/img_02.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_03.jpg",
+        "src": "assets/images/ream/img_03.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_04.jpg",
+        "src": "assets/images/ream/img_04.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_05.jpg",
+        "src": "assets/images/ream/img_05.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_06.jpg",
+        "src": "assets/images/ream/img_06.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_07.jpg",
+        "src": "assets/images/ream/img_07.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_08.jpg",
+        "src": "assets/images/ream/img_08.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_09.jpg",
+        "src": "assets/images/ream/img_09.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_10.jpg",
+        "src": "assets/images/ream/img_10.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_11.jpg",
+        "src": "assets/images/ream/img_11.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/ream/img_12.jpg",
+        "src": "assets/images/ream/img_12.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "relb",
+    "title": "ReLB",
+    "date": "2022",
+    "category": "work",
+    "order": 6,
+    "local_cover": "assets/images/relb/cover.png",
+    "cover_img": "assets/images/relb/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Estudo preliminar residencial feito no ArchiCAD e renderizado no Lumion."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_01.png",
+        "src": "assets/images/relb/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_02.png",
+        "src": "assets/images/relb/img_02.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_03.png",
+        "src": "assets/images/relb/img_03.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_04.png",
+        "src": "assets/images/relb/img_04.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_05.png",
+        "src": "assets/images/relb/img_05.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_06.png",
+        "src": "assets/images/relb/img_06.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_07.png",
+        "src": "assets/images/relb/img_07.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_08.png",
+        "src": "assets/images/relb/img_08.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_09.png",
+        "src": "assets/images/relb/img_09.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_10.png",
+        "src": "assets/images/relb/img_10.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_11.png",
+        "src": "assets/images/relb/img_11.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_12.png",
+        "src": "assets/images/relb/img_12.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_13.png",
+        "src": "assets/images/relb/img_13.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/relb/img_14.png",
+        "src": "assets/images/relb/img_14.png"
+      }
+    ]
+  },
+  {
+    "slug": "regm",
+    "title": "ReGM",
+    "date": "2022",
+    "category": "work",
+    "order": 7,
+    "local_cover": "assets/images/regm/cover.png",
+    "cover_img": "assets/images/regm/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Projeto realizado no ArchiCAD, renderizado no Lumion."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_01.png",
+        "src": "assets/images/regm/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_02.png",
+        "src": "assets/images/regm/img_02.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_03.png",
+        "src": "assets/images/regm/img_03.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_04.png",
+        "src": "assets/images/regm/img_04.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_05.png",
+        "src": "assets/images/regm/img_05.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_06.png",
+        "src": "assets/images/regm/img_06.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_07.png",
+        "src": "assets/images/regm/img_07.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_08.png",
+        "src": "assets/images/regm/img_08.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_09.png",
+        "src": "assets/images/regm/img_09.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_10.png",
+        "src": "assets/images/regm/img_10.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_11.png",
+        "src": "assets/images/regm/img_11.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_12.png",
+        "src": "assets/images/regm/img_12.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_13.png",
+        "src": "assets/images/regm/img_13.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_14.png",
+        "src": "assets/images/regm/img_14.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_15.png",
+        "src": "assets/images/regm/img_15.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_16.png",
+        "src": "assets/images/regm/img_16.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_17.png",
+        "src": "assets/images/regm/img_17.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_18.png",
+        "src": "assets/images/regm/img_18.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/regm/img_19.png",
+        "src": "assets/images/regm/img_19.png"
+      }
+    ]
+  },
+  {
+    "slug": "reft",
+    "title": "ReFT",
+    "date": "2022",
+    "category": "work",
+    "order": 8,
+    "local_cover": "assets/images/reft/cover.png",
+    "cover_img": "assets/images/reft/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Projeto residencial feito com ArchiCAD, renderizado no Lumion."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_01.png",
+        "src": "assets/images/reft/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_02.png",
+        "src": "assets/images/reft/img_02.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_03.png",
+        "src": "assets/images/reft/img_03.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_04.png",
+        "src": "assets/images/reft/img_04.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_05.png",
+        "src": "assets/images/reft/img_05.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_06.png",
+        "src": "assets/images/reft/img_06.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_07.png",
+        "src": "assets/images/reft/img_07.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_08.png",
+        "src": "assets/images/reft/img_08.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_09.png",
+        "src": "assets/images/reft/img_09.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_10.png",
+        "src": "assets/images/reft/img_10.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_11.png",
+        "src": "assets/images/reft/img_11.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_12.png",
+        "src": "assets/images/reft/img_12.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_13.png",
+        "src": "assets/images/reft/img_13.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_14.png",
+        "src": "assets/images/reft/img_14.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_15.png",
+        "src": "assets/images/reft/img_15.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_16.png",
+        "src": "assets/images/reft/img_16.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_17.png",
+        "src": "assets/images/reft/img_17.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_18.png",
+        "src": "assets/images/reft/img_18.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_19.png",
+        "src": "assets/images/reft/img_19.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_20.png",
+        "src": "assets/images/reft/img_20.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_21.png",
+        "src": "assets/images/reft/img_21.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_22.png",
+        "src": "assets/images/reft/img_22.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_23.png",
+        "src": "assets/images/reft/img_23.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_24.png",
+        "src": "assets/images/reft/img_24.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_25.png",
+        "src": "assets/images/reft/img_25.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_26.png",
+        "src": "assets/images/reft/img_26.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_27.png",
+        "src": "assets/images/reft/img_27.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_28.png",
+        "src": "assets/images/reft/img_28.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_29.png",
+        "src": "assets/images/reft/img_29.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/reft/img_30.png",
+        "src": "assets/images/reft/img_30.png"
+      }
+    ]
+  },
+  {
+    "slug": "coffeeshop001",
+    "title": "Coffee.Shop.001",
+    "date": "2020",
+    "category": "work",
+    "order": 9,
+    "local_cover": "assets/images/coffeeshop001/cover.png",
+    "cover_img": "assets/images/coffeeshop001/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Projeto p/ Desafio Lev.Design Cafeteria"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/coffeeshop001/img_01.png",
+        "src": "assets/images/coffeeshop001/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/coffeeshop001/img_02.png",
+        "src": "assets/images/coffeeshop001/img_02.png"
+      },
+      {
+        "type": "text",
+        "content": "Coffee.Shop.001"
+      }
+    ]
+  },
+  {
+    "slug": "bedroom003",
+    "title": "Bedroom.003",
+    "date": "2020",
+    "category": "work",
+    "order": 10,
+    "local_cover": "assets/images/bedroom003/cover.png",
+    "cover_img": "assets/images/bedroom003/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Projeto autoral de interiores suíte. Modelado e renderizado no Blender."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bedroom003/img_01.png",
+        "src": "assets/images/bedroom003/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bedroom003/img_02.png",
+        "src": "assets/images/bedroom003/img_02.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bedroom003/img_03.png",
+        "src": "assets/images/bedroom003/img_03.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bedroom003/img_04.png",
+        "src": "assets/images/bedroom003/img_04.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bedroom003/img_05.png",
+        "src": "assets/images/bedroom003/img_05.png"
+      }
+    ]
+  },
+  {
+    "slug": "donatelabench",
+    "title": "Donatela.bench",
+    "date": "2020",
+    "category": "work",
+    "order": 11,
+    "local_cover": "assets/images/donatelabench/cover.png",
+    "cover_img": "assets/images/donatelabench/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Estudo de modelagem e renderização p/ Arkviz do banco Donatela."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/donatelabench/img_01.png",
+        "src": "assets/images/donatelabench/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/donatelabench/img_02.png",
+        "src": "assets/images/donatelabench/img_02.png"
+      }
+    ]
+  },
+  {
+    "slug": "bathroom003",
+    "title": "Bathroom.003",
+    "date": "2020",
+    "category": "work",
+    "order": 12,
+    "local_cover": "assets/images/bathroom003/cover.png",
+    "cover_img": "assets/images/bathroom003/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Projeto de interiores autoral p/ BWC, modelagem e renderização no Blender."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003/img_01.png",
+        "src": "assets/images/bathroom003/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003/img_02.png",
+        "src": "assets/images/bathroom003/img_02.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003/img_03.png",
+        "src": "assets/images/bathroom003/img_03.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003/img_04.png",
+        "src": "assets/images/bathroom003/img_04.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003/img_05.png",
+        "src": "assets/images/bathroom003/img_05.png"
+      },
+      {
+        "type": "text",
+        "content": "Bathroom.003"
+      }
+    ]
+  },
+  {
+    "slug": "hall002",
+    "title": "Hall.002",
+    "date": "2020",
+    "category": "work",
+    "order": 13,
+    "local_cover": "assets/images/hall002/cover.png",
+    "cover_img": "assets/images/hall002/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Estudo de inserção de móveis em fotos, modelagem e renderização no Blender."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/hall002/img_01.png",
+        "src": "assets/images/hall002/img_01.png"
+      },
+      {
+        "type": "text",
+        "content": "Foto original de referência:"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/hall002/img_02.jpg",
+        "src": "assets/images/hall002/img_02.jpg"
+      },
+      {
+        "type": "text",
+        "content": "Hall.002"
+      }
+    ]
+  },
+  {
+    "slug": "gym001",
+    "title": "Gym.001",
+    "date": "2020",
+    "category": "work",
+    "order": 14,
+    "local_cover": "assets/images/gym001/cover.png",
+    "cover_img": "assets/images/gym001/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/gym001/img_01.png",
+        "src": "assets/images/gym001/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/gym001/img_02.png",
+        "src": "assets/images/gym001/img_02.png"
+      },
+      {
+        "type": "text",
+        "content": "Gym.001"
+      }
+    ]
+  },
+  {
+    "slug": "hall001",
+    "title": "Hall.001",
+    "date": "2020",
+    "category": "work",
+    "order": 15,
+    "local_cover": "assets/images/hall001/cover.png",
+    "cover_img": "assets/images/hall001/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/hall001/img_01.png",
+        "src": "assets/images/hall001/img_01.png"
+      },
+      {
+        "type": "text",
+        "content": "Hall.001"
+      }
+    ]
+  },
+  {
+    "slug": "bathroom002",
+    "title": "Bathroom.002",
+    "date": "2020",
+    "category": "work",
+    "order": 16,
+    "local_cover": "assets/images/bathroom002/cover.png",
+    "cover_img": "assets/images/bathroom002/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Projeto de interiores autoral de estudo para BWC Master. Modelagem e renderização no Blender."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom002/img_01.png",
+        "src": "assets/images/bathroom002/img_01.png"
+      },
+      {
+        "type": "text",
+        "content": "Bathroom.001"
+      }
+    ]
+  },
+  {
+    "slug": "bathroom001",
+    "title": "Bathroom.001",
+    "date": "2020",
+    "category": "work",
+    "order": 17,
+    "local_cover": "assets/images/bathroom001/cover.png",
+    "cover_img": "assets/images/bathroom001/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Estudo de recriação de ambiente em 3D a partir de foto. Modelagem e renderização no Blender."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom001/img_01.png",
+        "src": "assets/images/bathroom001/img_01.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom001/img_02.png",
+        "src": "assets/images/bathroom001/img_02.png"
+      },
+      {
+        "type": "text",
+        "content": "Foto original de referência."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom001/img_03.jpg",
+        "src": "assets/images/bathroom001/img_03.jpg"
+      },
+      {
+        "type": "text",
+        "content": "Bathroom.001"
+      }
+    ]
+  },
+  {
+    "slug": "house001",
+    "title": "House.001",
+    "date": "2020",
+    "category": "work",
+    "order": 18,
+    "local_cover": "assets/images/house001/cover.png",
+    "cover_img": "assets/images/house001/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Projeto de estudo arquitetônico p/ casa em terreno aclive. Modelagem e renderização no Blender."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/house001/img_01.png",
+        "src": "assets/images/house001/img_01.png"
+      },
+      {
+        "type": "text",
+        "content": "House.001"
+      }
+    ]
+  },
+  {
+    "slug": "livingdetail001",
+    "title": "Living.Detail.001",
+    "date": "2020",
+    "category": "work",
+    "order": 19,
+    "local_cover": "assets/images/livingdetail001/cover.png",
+    "cover_img": "assets/images/livingdetail001/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/livingdetail001/img_01.png",
+        "src": "assets/images/livingdetail001/img_01.png"
+      }
+    ]
+  },
+  {
+    "slug": "stool001",
+    "title": "Stool.001",
+    "date": "2020",
+    "category": "work",
+    "order": 20,
+    "local_cover": "assets/images/stool001/cover.png",
+    "cover_img": "assets/images/stool001/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/stool001/img_01.png",
+        "src": "assets/images/stool001/img_01.png"
+      },
+      {
+        "type": "text",
+        "content": "Stool.001"
+      }
+    ]
+  },
+  {
+    "slug": "living001",
+    "title": "Living.001",
+    "date": "2020",
+    "category": "work",
+    "order": 21,
+    "local_cover": "assets/images/living001/cover.png",
+    "cover_img": "assets/images/living001/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/living001/img_01.png",
+        "src": "assets/images/living001/img_01.png"
+      },
+      {
+        "type": "text",
+        "content": "Living inspirado pela série Mad Man."
+      }
+    ]
+  },
+  {
+    "slug": "bedroom001",
+    "title": "Bedroom.001",
+    "date": "2020",
+    "category": "work",
+    "order": 22,
+    "local_cover": "assets/images/bedroom001/cover.png",
+    "cover_img": "assets/images/bedroom001/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/bedroom001/img_01.png",
+        "src": "assets/images/bedroom001/img_01.png"
+      }
+    ]
+  },
+  {
+    "slug": "boomerangchair001",
+    "title": "Boomerang.Chair.001",
+    "date": "2020",
+    "category": "work",
+    "order": 23,
+    "local_cover": "assets/images/boomerangchair001/cover.png",
+    "cover_img": "assets/images/boomerangchair001/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/boomerangchair001/img_01.png",
+        "src": "assets/images/boomerangchair001/img_01.png"
+      },
+      {
+        "type": "text",
+        "content": "Boomerang.Chair by Richard Neutra"
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice001",
+    "title": "Home.Office.001",
+    "date": "2020",
+    "category": "work",
+    "order": 24,
+    "local_cover": "assets/images/homeoffice001/cover.png",
+    "cover_img": "assets/images/homeoffice001/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/homeoffice001/img_01.png",
+        "src": "assets/images/homeoffice001/img_01.png"
+      },
+      {
+        "type": "text",
+        "content": "Home.office.001"
+      }
+    ]
+  },
+  {
+    "slug": "kitchen001",
+    "title": "Kitchen.001",
+    "date": "2020",
+    "category": "work",
+    "order": 25,
+    "local_cover": "assets/images/kitchen001/cover.jpg",
+    "cover_img": "assets/images/kitchen001/cover.jpg",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/kitchen001/img_01.jpg",
+        "src": "assets/images/kitchen001/img_01.jpg"
+      },
+      {
+        "type": "text",
+        "content": "Kitchen.001"
+      }
+    ]
+  },
+  {
+    "slug": "piscina-e-pergolado",
+    "title": "PISCINA E PERGOLADO",
+    "date": "2023",
+    "category": "detalhamento",
+    "order": 26,
+    "local_cover": "assets/images/piscina-e-pergolado/cover.png",
+    "cover_img": "assets/images/piscina-e-pergolado/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/piscina-e-pergolado/img_01.jpg",
+        "src": "assets/images/piscina-e-pergolado/img_01.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/piscina-e-pergolado/img_02.jpg",
+        "src": "assets/images/piscina-e-pergolado/img_02.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/piscina-e-pergolado/img_03.jpg",
+        "src": "assets/images/piscina-e-pergolado/img_03.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/piscina-e-pergolado/img_04.jpg",
+        "src": "assets/images/piscina-e-pergolado/img_04.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/piscina-e-pergolado/img_05.jpg",
+        "src": "assets/images/piscina-e-pergolado/img_05.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/piscina-e-pergolado/img_06.jpg",
+        "src": "assets/images/piscina-e-pergolado/img_06.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/piscina-e-pergolado/img_07.png",
+        "src": "assets/images/piscina-e-pergolado/img_07.png"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/piscina-e-pergolado/img_08.png",
+        "src": "assets/images/piscina-e-pergolado/img_08.png"
+      }
+    ]
+  },
+  {
+    "slug": "det-escada",
+    "title": "Det. Escada.001",
+    "date": "2022",
+    "category": "detalhamento",
+    "order": 27,
+    "local_cover": "assets/images/det-escada/cover.png",
+    "cover_img": "assets/images/det-escada/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/det-escada/img_01.png",
+        "src": "assets/images/det-escada/img_01.png"
+      }
+    ]
+  },
+  {
+    "slug": "det-piscina",
+    "title": "Det. Piscina.001",
+    "date": "2022",
+    "category": "detalhamento",
+    "order": 28,
+    "local_cover": "assets/images/det-piscina/cover.png",
+    "cover_img": "assets/images/det-piscina/cover.png",
+    "modules": [
+      {
+        "type": "image",
+        "local_src": "assets/images/det-piscina/img_01.png",
+        "src": "assets/images/det-piscina/img_01.png"
+      }
+    ]
+  },
+  {
+    "slug": "marcenaria",
+    "title": "Det. Beliche Infantil.001",
+    "date": "2022",
+    "category": "detalhamento",
+    "order": 29,
+    "local_cover": "assets/images/marcenaria/cover.png",
+    "cover_img": "assets/images/marcenaria/cover.png",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Projeto de marcenaria de beliche infantil, projeto realizado no ArchiCAD."
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/marcenaria/img_01.png",
+        "src": "assets/images/marcenaria/img_01.png"
+      }
+    ]
+  },
+  {
+    "slug": "bathroom003-2d",
+    "title": "Bathroom.003",
+    "date": "2020",
+    "category": "detalhamento",
+    "order": 30,
+    "local_cover": "assets/images/bathroom003-2d/cover.jpg",
+    "cover_img": "assets/images/bathroom003-2d/cover.jpg",
+    "modules": [
+      {
+        "type": "text",
+        "content": "Mostrar 3D"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003-2d/img_01.jpg",
+        "src": "assets/images/bathroom003-2d/img_01.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003-2d/img_02.jpg",
+        "src": "assets/images/bathroom003-2d/img_02.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003-2d/img_03.jpg",
+        "src": "assets/images/bathroom003-2d/img_03.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003-2d/img_04.jpg",
+        "src": "assets/images/bathroom003-2d/img_04.jpg"
+      },
+      {
+        "type": "image",
+        "local_src": "assets/images/bathroom003-2d/img_05.jpg",
+        "src": "assets/images/bathroom003-2d/img_05.jpg"
+      }
+    ]
+  }
+]

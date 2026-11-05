@@ -1,0 +1,50 @@
+backend:
+  name: github
+  repo: viniciusdomingues/portfolio # Substitua pelo seu usuário/repositório no GitHub
+  branch: main
+
+# Pasta padrão onde novas imagens enviadas pelo painel serão salvas
+media_folder: "assets/images/uploads"
+public_folder: "assets/images/uploads"
+
+# Idioma da interface do painel
+locale: "pt"
+
+collections:
+  - name: "projects"
+    label: "Projetos"
+    label_singular: "Projeto"
+    folder: "content/projects"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    summary: "{{title}} ({{date}} - {{category}})"
+    fields:
+      - { label: "Título do Projeto", name: "title", widget: "string" }
+      - { label: "Ano / Data", name: "date", widget: "string", default: "2026" }
+      - { label: "Identificador (Slug na URL)", name: "slug", widget: "string", hint: "Ex: projeto-sala-estar (somente letras minúsculas e traços)" }
+      - label: "Categoria"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Portfólio 3D (Render / Arquitetura)", value: "work" }
+          - { label: "Portfólio Detalhamento (2D / Executivo)", value: "detalhamento" }
+        default: "work"
+      - { label: "Ordem de Exibição", name: "order", widget: "number", value_type: "int", default: 1 }
+      - { label: "Imagem de Capa (Grid)", name: "cover", widget: "image" }
+      - label: "Módulos do Projeto (Imagens e Textos)"
+        name: "modules"
+        widget: "list"
+        types:
+          - label: "Imagem (Render em Alta Resolução)"
+            name: "image"
+            widget: "object"
+            fields:
+              - { label: "Tipo", name: "type", widget: "hidden", default: "image" }
+              - { label: "Arquivo da Imagem", name: "image", widget: "image" }
+          - label: "Texto / Descrição"
+            name: "text"
+            widget: "object"
+            fields:
+              - { label: "Tipo", name: "type", widget: "hidden", default: "text" }
+              - { label: "Conteúdo do Texto", name: "text", widget: "text" }
