@@ -1,0 +1,14 @@
+{
+  "title": "Teste",
+  "date": "2026",
+  "slug": "teste",
+  "category": "ia",
+  "order": 1,
+  "cover": "https://picsum.photos/id/106/1920/1280.webp",
+  "modules": [
+    {
+      "type": "image",
+      "image": "https://picsum.photos/id/337/1920/1280.webp"
+    }
+  ]
+}
