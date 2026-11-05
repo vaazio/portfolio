@@ -4,14 +4,20 @@ backend:
   branch: main
   auth_methods: [token]
 
-# Pasta padrão onde novas imagens enviadas pelo painel serão salvas
+# Armazenamento de mídia
 media_folder: "assets/images/uploads"
 public_folder: "assets/images/uploads"
 
 # Idioma da interface do painel
 locale: "pt"
 
+# Permite visualização e pré-visualizações
+display_url: "https://vinidomingues.com.br"
+
 collections:
+  # ==========================================================
+  # COLEÇÃO DE PROJETOS
+  # ==========================================================
   - name: "projects"
     label: "Projetos"
     label_singular: "Projeto"
@@ -19,33 +25,76 @@ collections:
     create: true
     format: "json"
     slug: "{{slug}}"
-    summary: "{{title}} ({{date}} - {{category}})"
+    summary: "{{title}} ({{date}})"
+    
+    # Agrupamentos visuais no painel
+    view_groups:
+      - label: "Por Categoria"
+        field: "category"
+      - label: "Por Ano"
+        field: "date"
+
+    # Campos de ordenação rápida
+    sortable_fields:
+      - "order"
+      - "date"
+      - "title"
+
     fields:
-      - { label: "Título do Projeto", name: "title", widget: "string" }
-      - { label: "Ano / Data", name: "date", widget: "string", default: "2026" }
-      - { label: "Identificador (Slug na URL)", name: "slug", widget: "string", hint: "Ex: projeto-sala-estar (somente letras minúsculas e traços)" }
+      - { label: "Título do Projeto", name: "title", widget: "string", hint: "Ex: Living Mad Men, Residência Haras" }
+      - { label: "Ano / Data", name: "date", widget: "string", default: "2026", hint: "Ex: 2026" }
+      - { label: "Identificador (Slug na URL)", name: "slug", widget: "string", hint: "Ex: living-mad-men (apenas letras minúsculas e hífens, sem espaços)" }
+      
+      # Categoria dinâmica vinculada à coleção de categorias
       - label: "Categoria"
         name: "category"
-        widget: "select"
-        options:
-          - { label: "Portfólio 3D (Render / Arquitetura)", value: "work" }
-          - { label: "Portfólio Detalhamento (2D / Executivo)", value: "detalhamento" }
+        widget: "relation"
+        collection: "categories"
+        value_field: "slug"
+        display_fields: ["name"]
+        search_fields: ["name", "slug"]
         default: "work"
-      - { label: "Ordem de Exibição", name: "order", widget: "number", value_type: "int", default: 1 }
-      - { label: "Imagem de Capa (Grid)", name: "cover", widget: "image" }
+        hint: "Selecione a categoria deste projeto ou crie uma nova na aba Categorias."
+
+      - { label: "Ordem de Exibição", name: "order", widget: "number", value_type: "int", default: 1, hint: "Número menor aparece primeiro no site (ex: 0 ou 1 fica no topo)." }
+      - { label: "Imagem de Capa (Grid)", name: "cover", widget: "image", hint: "Imagem principal que aparece na grade do portfólio." }
+
+      # Módulos com blocos recolhíveis (Accordion) para fácil reordenação
       - label: "Módulos do Projeto (Imagens e Textos)"
         name: "modules"
         widget: "list"
+        collapsed: true
+        minimize_collapsed: true
+        summary: "{{fields.image}}{{fields.text}}"
+        hint: "Adicione renders ou blocos de texto. Arraste os blocos para reordenar a sequência de fotos."
         types:
           - label: "Imagem (Render em Alta Resolução)"
             name: "image"
             widget: "object"
+            summary: "🖼️ Imagem: {{fields.image}}"
             fields:
               - { label: "Tipo", name: "type", widget: "hidden", default: "image" }
               - { label: "Arquivo da Imagem", name: "image", widget: "image" }
-          - label: "Texto / Descrição"
+          - label: "Texto / Descrição Técnica"
             name: "text"
             widget: "object"
+            summary: "📝 Texto: {{fields.text}}"
             fields:
               - { label: "Tipo", name: "type", widget: "hidden", default: "text" }
               - { label: "Conteúdo do Texto", name: "text", widget: "text" }
+
+  # ==========================================================
+  # COLEÇÃO DE CATEGORIAS (DINÂMICAS)
+  # ==========================================================
+  - name: "categories"
+    label: "Categorias"
+    label_singular: "Categoria"
+    folder: "content/categories"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    summary: "{{name}} (URL: /{{slug}}.html)"
+    fields:
+      - { label: "Nome da Categoria", name: "name", widget: "string", hint: "Nome que aparece no menu do site. Ex: Portfólio 3D, Interiores, Fotografia" }
+      - { label: "Identificador (Slug na URL)", name: "slug", widget: "string", hint: "Ex: work, detalhamento, interiores (apenas letras minúsculas e traço)" }
+      - { label: "Ordem no Menu", name: "order", widget: "number", value_type: "int", default: 1, hint: "Posição no menu de navegação (1 = primeiro, 2 = segundo, etc.)" }

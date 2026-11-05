@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vinicius Domingues - Portfólio Detalhamento</title>
-  <meta name="description" content="Detalhamento Arquitetônico e Marcenaria - Vinicius Domingues." />
+  <title>Portfólio Detalhamento - Vinicius Domingues</title>
+  <meta name="description" content="Projetos de Portfólio Detalhamento - Vinicius Domingues." />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -17,7 +17,7 @@
     </div>
 
     <nav class="site-nav">
-      <a href="index.html" class="nav-link">Portfólio</a>
+      <a href="index.html" class="nav-link">Portfólio 3D</a>
       <a href="detalhamento.html" class="nav-link active">Portfólio Detalhamento</a>
       <a href="https://www.instagram.com/vini.domingue.s" target="_blank" rel="noopener" class="nav-link nav-social">Instagram</a>
       <a href="https://www.linkedin.com/in/vinicius-domingues-596ab3199/" target="_blank" rel="noopener" class="nav-link nav-social">LinkedIn</a>
@@ -27,8 +27,52 @@
 
   <!-- Main Content -->
   <main class="main-content">
-    <div class="projects-grid" id="detalhamento-grid">
-      <!-- Inserido dinamicamente via assets/js/main.js -->
+    <div class="projects-grid" id="projects-grid">
+      <a href="piscina-e-pergolado.html" class="project-card" data-slug="piscina-e-pergolado">
+        <div class="project-thumb-wrap">
+          <img src="assets/images/piscina-e-pergolado/cover.png" alt="PISCINA E PERGOLADO" class="project-thumb" loading="lazy" />
+        </div>
+        <div class="project-info">
+          <span class="project-name">PISCINA E PERGOLADO</span>
+          <span class="project-year">2023</span>
+        </div>
+      </a>
+      <a href="det-escada.html" class="project-card" data-slug="det-escada">
+        <div class="project-thumb-wrap">
+          <img src="assets/images/det-escada/cover.png" alt="Det. Escada.001" class="project-thumb" loading="lazy" />
+        </div>
+        <div class="project-info">
+          <span class="project-name">Det. Escada.001</span>
+          <span class="project-year">2022</span>
+        </div>
+      </a>
+      <a href="det-piscina.html" class="project-card" data-slug="det-piscina">
+        <div class="project-thumb-wrap">
+          <img src="assets/images/det-piscina/cover.png" alt="Det. Piscina.001" class="project-thumb" loading="lazy" />
+        </div>
+        <div class="project-info">
+          <span class="project-name">Det. Piscina.001</span>
+          <span class="project-year">2022</span>
+        </div>
+      </a>
+      <a href="marcenaria.html" class="project-card" data-slug="marcenaria">
+        <div class="project-thumb-wrap">
+          <img src="assets/images/marcenaria/cover.png" alt="Det. Beliche Infantil.001" class="project-thumb" loading="lazy" />
+        </div>
+        <div class="project-info">
+          <span class="project-name">Det. Beliche Infantil.001</span>
+          <span class="project-year">2022</span>
+        </div>
+      </a>
+      <a href="bathroom003-2d.html" class="project-card" data-slug="bathroom003-2d">
+        <div class="project-thumb-wrap">
+          <img src="assets/images/bathroom003-2d/cover.jpg" alt="Bathroom.003" class="project-thumb" loading="lazy" />
+        </div>
+        <div class="project-info">
+          <span class="project-name">Bathroom.003</span>
+          <span class="project-year">2020</span>
+        </div>
+      </a>
     </div>
   </main>
 
@@ -41,10 +85,5 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      renderGrid('detalhamento', 'detalhamento-grid');
-    });
-  </script>
 </body>
 </html>

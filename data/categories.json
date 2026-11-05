@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Portfólio 3D",
+    "slug": "work",
+    "order": 1
+  },
+  {
+    "name": "Portfólio Detalhamento",
+    "slug": "detalhamento",
+    "order": 2
+  }
+]
